@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="elb" basedir="." default="build">
-    <property name="web.dir" value="/var/lib/tomcat7/webapps/rws_d/WEB-INF" />
+    <property name="web.dir" value="/var/lib/tomcat7/webapps/rwmsgst_d/WEB-INF" />
     <property name="src.dir" value="." />
     <property name="build.dir" value="${web.dir}/classes" />
     <property name="name" value="elb"/>

@@ -1,10 +1,18 @@
 package org.victor;
-
 import java.util.*;
 import java.sql.*;
 import groovy.sql.*;
 import org.zkoss.zk.ui.*;
 import org.victor.*;
+
+/**
+ * SQL functions for RWMS-GST
+ * @author Victor Wong
+ * @since 08/06/2015
+ * @notes
+ *
+ * Port over from old codes but with new linking for Focus0J1
+ */
 
 public class SqlFuncs extends GlobalDefs
 {
@@ -13,7 +21,7 @@ public final Sql rws_Sql()
 {
 	try
 	{
-		String dbstring = "jdbc:jtds:sqlserver://192.168.100.201:1433/Focus5012";
+		String dbstring = "jdbc:jtds:sqlserver://192.168.100.201:1433/Focus50J1";
 		return(Sql.newInstance(dbstring, "testme", "9090", "net.sourceforge.jtds.jdbc.Driver"));
 	}
 	catch (Exception e)
