@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<project name="Bytecompiled things" default="info">
+<project name="Bytecompiled things for RWMS_GST" default="info">
 
-<property name="web.dir" value="/var/lib/tomcat7/webapps/melportal/WEB-INF" />
+<property name="web.dir" value="/var/lib/tomcat7/webapps/rwmsgst_d/WEB-INF" />
 <property name="src.dir" value="." />
 <property name="deploy.dir" value="${web.dir}/classes" />
 <property name="build.dir" value="./build" />
